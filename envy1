@@ -12,3 +12,5 @@ kubectl -n envoy-gateway-system port-forward service/${ENVOY_SERVICE} 8888:80 &
 curl --verbose --header "Host: www.example.com" http://localhost:8888/get
 
 
+
+
